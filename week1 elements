@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my html page</title>
+  <style>
+  h1 {
+    width: 100%;
+    color: blue;
+    font-size: 50px;
+
+  }
+  </style>
+</head>
+<body>
+
+  <h1> This is my head and it's blue </h1>
+
+<p>Wow I love words</p>
+
+<ul>
+  <li>1sip</li>
+  <li>2sips</li>
+  <li>3sips</li>
+  <li>4sips</li>
+  <li>5sips</li>
+</ul>
+
+</body>
+</html>
