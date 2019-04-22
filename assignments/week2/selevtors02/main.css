@@ -1,0 +1,27 @@
+t:first-child {
+  color: green;
+}
+
+t:last-child {
+  color: yellow;
+}
+
+p:nth-child(odd) {
+  color: red;
+}
+
+p:nth-child(even) {
+  color: blue;
+}
+
+p:nth-child(2) {
+color: purple;
+}
+
+p:nth-child(3n+1) {
+  font-size: 25px;
+}
+
+p:only-child {
+  color: darkblue;
+}
