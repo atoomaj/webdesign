@@ -1,0 +1,28 @@
+body {
+  font-size: 20px;
+  text-align: center;
+}
+header {
+  background-color: #555;
+  height: 50px
+}
+section {
+  float:left;
+
+  width: 60%;
+  background-color: #999;
+  height: 100px
+}
+aside {
+  float:right;
+  background-color: #888;
+  width:40%;
+  height: 100px
+}
+footer {
+  background-color: #555;
+  padding: 20px;
+}
+article {
+  background-color: #555
+}

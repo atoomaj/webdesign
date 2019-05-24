@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
+    border: red solid 5px
+}
+div {
+  height: 150px;
+    flex-grow: 1;
+}
+div:nth-child(1) {
+  background-color: darkblue;
+  width: 60%;
+}
+
+div:nth-child(2) {
+  background-color: blue;
+  width: 38%
+}
+div:nth-child(3) {
+  width: 30%;
+  background-color: cyan
+}
+div:nth-child(4) {
+  width: 30%;
+  background-color: #998
+}
+div:nth-child(5) {
+  background-color: #150;
+  width: 25%
+}

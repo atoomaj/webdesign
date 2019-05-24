@@ -1,0 +1,18 @@
+header {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+div {
+  border: solid 2px black;
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+  flex-grow: 1;
+  text-align: center;
+  background-color: orange
+}
+
+div:last-child {
+  flex-grow: 2
+}

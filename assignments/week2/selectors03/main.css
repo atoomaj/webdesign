@@ -1,0 +1,6 @@
+body::first-letter{
+  font-size: 30px
+}
+body::first-line{
+  color: red
+}

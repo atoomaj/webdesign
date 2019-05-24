@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: row;
+}
+div {
+  width: 400px;
+  border: black solid 2px;
+  height: 60px;
+  background-color: orange
+}
+div:nth-child(odd) {
+  flex-grow: 1;
+}
+div:nth-child(even) {
+  flex-grow: 2;
+}

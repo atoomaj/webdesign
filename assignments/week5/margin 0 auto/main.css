@@ -1,0 +1,27 @@
+body {
+   background-color: #478
+  }
+article {
+  text-align: left;
+    border: solid black 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #486
+  }
+
+img {
+    image-resolution: 50px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px
+  }
+h1 {
+  font-size: 38px;
+  color: blue
+}
+h2 {
+  color:red;
+  font-size: 38px
+}

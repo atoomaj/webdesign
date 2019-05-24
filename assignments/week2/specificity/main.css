@@ -1,0 +1,50 @@
+p {
+  width: 75px; height: 34px; border: solid;
+}
+h1 {
+  width: 150px; height: 40px; border: solid;
+}
+div {
+  width: 75px; height: 45px; border: solid;
+}
+/* this makes class1 elements red*/
+.class1 {
+  color: red
+}
+/*this makes class2 elements green*/
+.class2 {
+  color: green
+}
+/*this makes the class3 elements blue*/
+.class3 {
+  color: darkblue
+}
+/*this makes all ps have a yellow background*/
+p {
+  background-color: yellow
+}
+/* makes bigdiv id element italic font */
+#bigdiv {
+ font-style: italic;
+}
+/*adds multi colored borders to div element */
+div {
+  border-top-color: red; border-left-color: blue; border-right-color: green
+}
+/* changes the p which is the first child to oblique and increases size */
+p:first-child {
+  font-style: oblique; font-size: 30px
+}
+/* changes background color of selected p elements to black*/
+p::selection {
+  background-color: black
+}
+/*adds shadow to first line of div elements */
+div::first-line {
+  text-shadow: 1px 1px 2px red
+}
+/* gives italic style to p if it is the only p child */
+p:only-of-type {
+  font-style: italic; text-decoration:
+
+}

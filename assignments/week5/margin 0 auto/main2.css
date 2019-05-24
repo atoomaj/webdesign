@@ -1,0 +1,29 @@
+article {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border: solid 2px #999
+}
+
+div {
+width: 80px;
+height: 40px;
+border: solid black 2px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.c1 {
+  background-color: red
+}
+.c2 {
+  background-color: blue
+}
+.c3 {
+  background-color: yellow
+}
+.c4 {
+  background-color: green
+}

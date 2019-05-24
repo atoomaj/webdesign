@@ -1,0 +1,16 @@
+header {
+  border: red solid 2px
+}
+img {
+  float: right;
+  width: 100px;
+  height:auto;
+  border: red solid 2px;
+}
+footer {
+  border: red solid 2px;
+overflow: auto;
+}
+.fleft {
+  float: left;
+}
